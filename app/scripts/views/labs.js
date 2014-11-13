@@ -1,6 +1,9 @@
 define([
+  'jquery',
+  'underscore',
+  'backbone', 
   'text!../templates/home.html'
-], function (home_template) {
+], function ($, _, Backbone, home_template) {
   'use strict';
   var LabsView = Backbone.View.extend({
     el: '.content',

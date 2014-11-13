@@ -1,6 +1,9 @@
 define([
+  'jquery',
+  'underscore',
+  'backbone', 
   'text!../templates/signin.html'
-], function (signin_template) {
+], function ($, _, Backbone, signin_template) {
   'use strict';
   var SigninView = Backbone.View.extend({
     el: '.content',

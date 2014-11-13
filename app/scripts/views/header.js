@@ -1,6 +1,9 @@
 define([
+  'jquery',
+  'underscore',
+  'backbone', 
   'text!../templates/header.html'
-], function (header_template) {
+], function ($, _, Backbone, header_template) {
   'use strict';
   var HeaderView = Backbone.View.extend({
     el: '.header',
