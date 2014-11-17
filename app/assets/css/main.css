@@ -133,7 +133,10 @@ border: 0px solid transparent;
 	color: white;
 }
 
-
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
 
 hr {
     position: relative;
@@ -165,6 +168,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+h3, .h3 {
+font-size: 24px;
+}
+
+h2, .h2 {
+font-size: 14px;
+color: #142323;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+margin-top: 20px;
+margin-bottom: 10px;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -172,7 +188,19 @@ p {
     margin-bottom: 25px;
 }
 
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
 .centered {
+    text-align: center;
+}
+
+.center {
     text-align: center;
 }
 
@@ -272,9 +300,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/foto-arriba.png) no-repeat center top;
 	margin-top: -50px;
-	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -672,9 +698,10 @@ a:after {
     font-weight: bold;
 }
 
-p{
+p {
     font-size: larger;
 }
+
 
 .paragraph{
     font-size: larger;
@@ -713,6 +740,26 @@ p{
     background-color: #F15A24;
     color: #EBECED;
 }
+
+.btn-submit2{
+    background-color: #F15A24;
+    color: #EBECED;
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 20px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
 .form_input{
     border-top: 0px solid transparent;
     border-bottom: 20px solid transparent;
@@ -724,10 +771,49 @@ p{
     padding: 0px;
     display: inline;
 }
+
 .form_text{
     display: inline;
     margin-left: -80px;
 }
 .form-group{
     display: inline;
+}
+.title {
+color: white;
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.title2 {
+color: white;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.title3 {
+color: #D25E37;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.title4 {
+color: #D25E37;
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.headerwrap1 {
+background: url(../img/foto-arriba.png) no-repeat center top;
+}
+.headerwrap2 {
+background: url(../img/foto-premio.jpg) no-repeat center top;
 }

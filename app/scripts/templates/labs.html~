@@ -1,0 +1,19 @@
+<div class="container">
+<div class="row greywrap">
+<br>				
+	<div class="col-lg-12">
+		<h1 class="title4">Talleres Previos</h1>
+		<ul class="values_list">
+		  <li><h2><span class="first_word">Lugar: </span> Centro de Investigación para la Innovación-CINNO, Universidad Veritas</h2>
+		  	<ul>
+			<h2>Sábado 29 de Noviembre 9:00-12:00 Taller A: Arduino YUN e Internet de las cosas</h2>
+			<h2>Sábado 29 de Noviembre 9:00-12:00 Taller B: Processing + Arduino               </h2>
+			<h2>Sábado 29 de Noviembre 1:00-4:00 Taller C: Diseño e Impresión 3D               </h2>
+			<h2>Sábado 29 de Noviembre 1:00-4:00 Taller D: Diseño para internet de las cosas   </h2>
+			</ul>
+		</li>
+		</ul>
+	</div><!-- col-lg-12 -->
+</div><!-- row -->
+</div><!-- container -->
+

@@ -31,31 +31,31 @@ define([
       },
 
       home: function() {
-          HeaderView.render();
+          HeaderView.render(1);
           HomeView.render();
           window.location = '#home';
       },
 
       signin: function() {
-          HeaderView.render();
+          HeaderView.render(1);
           SignInView.render();
           window.location = '#signin';
       },
 
       labs: function() {
-          HeaderView.render();
+          HeaderView.render(1);
           LabsInView.render();
           window.location = '#labs';
       },
 
       event: function() {
-          HeaderView.render();
+          HeaderView.render(1);
           EventView.render();
           window.location = '#event';
       },
 
       awards: function() {
-          HeaderView.render();
+          HeaderView.render(2);
           AwardsView.render();
           window.location = '#awards';
       }

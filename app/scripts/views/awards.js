@@ -2,7 +2,7 @@ define([
   'jquery',
   'underscore',
   'backbone', 
-  'text!../templates/home.html'
+  'text!../templates/awards.html'
 ], function ($, _, Backbone, home_template) {
   'use strict';
   var AwardsView = Backbone.View.extend({

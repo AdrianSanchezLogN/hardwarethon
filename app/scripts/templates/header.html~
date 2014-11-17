@@ -1,0 +1,24 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <img src="/assets/img/icono-logo-1.png" alt="">
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home">
+          	<img class="navbar-image" src="/assets/img/icono-logo-1.png" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav nav-pills pull-left">
+          	<li class="nav-button home active"><a href="#home">Home</a></li>
+	        <li class="nav-button signin"><a href="#signin">Regístrese</a></li>
+	        <li class="nav-button labs"><a href="#labs">Talleres Previos</a></li>
+	        <li class="nav-button event"><a href="#event">Logística del Evento</a></li>
+	        <li class="nav-button awards"><a href="#awards">Premios</a></li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!-- ==== HEADERWRAP ==== -->
+	    <div class="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		</header>	    
+	    </div><!-- /headerwrap -->

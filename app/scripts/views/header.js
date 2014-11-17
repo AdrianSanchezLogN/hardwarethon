@@ -18,13 +18,21 @@ define([
         //_.extend(this, options);
     },
 
-    render: function() {
+    render: function(num) {
       if(! this.shown){
         this.$el.html('').hide().fadeIn().slideDown('slow');
         this.$el.append(this.header_template());
-        this.shown = true;
-      }
     }
+	if (num == 2){
+	$('#headerwrap').addClass('headerwrap2');
+	$('#headerwrap').removeClass('headerwrap1');
+	}
+	if (num == 1){
+	$('#headerwrap').addClass('headerwrap1');
+	$('#headerwrap').removeClass('headerwrap2');
+	}
+	this.shown = true;
+	}
   });
 
   return HeaderView;

@@ -33,10 +33,14 @@ define([
 
     signin: function(event) {
         event.preventDefault();
-        $.post('email', {'email':$('#inputEmail1').val(), 'name':$('#text1').val()});
+        $.post('email', {'team':$('#inputTeam').val(), 'name':$('#inputContactName').val(), 'mail':$('#inputContactMail').val(), 'phone':$('#inputContactPhone').val(), 'members':$('#inputMembers').val(), 'bank':$('#inputBank').val()});
         $('.alert-success').removeClass('hidden');
-        $('#inputEmail1').val('');
-        $('#text1').val('');
+        $('#inputTeam').val('');
+        $('#inputContactName').val('');
+        $('#inputContactMail').val('');
+        $('#inputContactPhone').val('');
+        $('#inputMembers').val('');
+        $('#inputBank').val('');
         setTimeout(this.addHidden, 2000, '.alert-success');
     },
 

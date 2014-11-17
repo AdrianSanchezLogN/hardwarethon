@@ -1,0 +1,69 @@
+<div class="div_content">
+<div class="row greywrap">
+<br>				
+	<div class="col-lg-12">
+	<div class="inside_center">
+		<h1 class="title4">Registrate </h1>
+		<h2>Por favor llenar cuidadosamente todos los campos de este formulario.</h2>
+		<h2>- Los equipos deben estar conformados entre 3 y 5 personas. </h2>
+		<h2>- Solo un miembro del equipo deberá realizar la inscripción completando este formulario.</h2>
+		<h2>- Se espera que los equipos sean iNTERDISCIPLINARIOS. </h2>
+		<h2>- El costo de inscripción es de 20 mil colones por equipo.</h2>
+		<h2>- Los depositos se deberán realizar en la cuenta del banco nacional 200-02-075-511072-3, con el detalle "Hardwarethon".</h2>
+		<h2>- Debe indicar en este formulario el comprobante del pago de la inscripción.</h2>
+		<h2>- La organización verifica el registro y emite información adicional una vez validado el deposito.</h2>
+
+	<form class="form-horizontal" role="form" action="email">
+	<div class="form-group">
+	<label for="inputTeam" class="col-lg-4 control-label"></label>
+	<div class="col-lg-12">
+	<input type="text" class="form-control form_input" id="inputTeam">
+	<label class="form_text">Equipo</label>
+	</div>
+	</div>
+
+	<div class="form-group">
+	<label for="text1" class="col-lg-4 control-label"></label>
+	<div class="col-lg-12">
+	<input type="text" class="form-control form_input" id="inputContactName">
+	<label class="form_text">Contacto</label>
+	</div>
+	</div>
+
+	<div class="form-group">
+	<label for="text1" class="col-lg-4 control-label"></label>
+	<div class="col-lg-12">
+	<input type="text" class="form-control form_input" id="inputContactMail">
+	<label class="form_text">Correo</label>
+	</div>
+	</div>
+
+	<div class="form-group">
+	<label for="text1" class="col-lg-4 control-label"></label>
+	<div class="col-lg-12">
+	<input type="text" class="form-control form_input" id="inputContactPhone">
+	<label class="form_text">Teléfono</label>
+	</div>
+	</div>
+
+	<div class="form-group">
+	<label for="text1" class="col-lg-4 control-label"></label>
+	<div class="col-lg-12">
+	<input type="text" class="form-control form_input" id="inputBank">
+	<label class="form_text"># Deposito </label>
+	</div>
+	</div>
+	
+	<div class="form-group">
+	<div class="col-lg-12">
+	<button type="submit" class="btn btn-submit">Enviar</button>
+	</div>
+	</div>
+		<br>
+		<label class= "hidden alert alert-success">Solicitud Enviada</label>
+	</form><!-- form -->
+	</p>
+</div><!-- col-lg-6-->
+</div><!-- col-lg-12 -->
+</div><!-- row -->
+</div>

@@ -2,7 +2,7 @@ define([
   'jquery',
   'underscore',
   'backbone', 
-  'text!../templates/home.html'
+  'text!../templates/labs.html'
 ], function ($, _, Backbone, home_template) {
   'use strict';
   var LabsView = Backbone.View.extend({

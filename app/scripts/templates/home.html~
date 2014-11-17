@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row white center">
+		<div class="col-lg-12">
+		<span class="title3"> • </span>
+		<span class="title">¿Qué es el Hardwarethon?</span>
+		<span class="title3"> • </span>
+
+		<p>¡Espacio único e innovador donde diseñadores, emprendedores y aficionados al Hardware y Software, unen esfuerzos para llevar una idea a una realidad en 48 horas!</p>
+		<span class="title2"> 100 PERSONAS / 20 EQUIPOS /</span> 
+		<span class="title3"> 1 GANADOR </span>  
+		<br>
+		<span> ¡Apuntáte a reinventar el mundo! </span>
+		
+		<div class="col-lg-12">
+			<button type="submit" class="btn-submit2" onclick="parent.location='#signin'"> Registrate </button>
+		</div>
+		</div>	 
+		</div><!-- col-lg-12 -->
+	</div><!-- row -->
+</div><!-- container -->
